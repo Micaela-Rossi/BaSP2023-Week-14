@@ -7,6 +7,10 @@ class cart {
         return $("#checkout");
     };
 
+    get spanCartNumber() {
+        return $("#shopping_cart_container > a > span");
+    };
+
     async continueShoppingBtnClick() {
         await this.continueShoppingBtn.click();
     };

@@ -27,6 +27,12 @@ class login {
     async loginBtnClick() {
         await this.loginBtn.click();
     };
+
+    async loginProcess(username, password) {
+        await this.fillFields(username, password);
+        await this.loginBtnClick();
+        await expect(browser).toHaveUrlContaining("inventory");
+    };
 }
 
 export default new login();

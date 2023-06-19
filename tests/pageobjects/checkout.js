@@ -54,6 +54,12 @@ class checkout {
     async backHomeBtnClick() {
         await this.backHomeBtn.click();
     };
+
+    async fillForm() {
+        await this.firstNameInputFill();
+        await this.lastNameInputFill();
+        await this.postalCodeInputFill();
+    }
 }
 
 export default new checkout();

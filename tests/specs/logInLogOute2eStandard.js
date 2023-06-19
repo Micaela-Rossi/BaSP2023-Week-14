@@ -1,5 +1,6 @@
-import { loginProcess, logoutProcess } from "./functionsReusables";
+import { logoutProcess } from "./functionsReusables";
 //const helper = require("./helper");
+import login from "../pageobjects/login";
 const credential = require("../credentials");
 
 describe ("Login to the standard user.", () => {
@@ -11,7 +12,7 @@ describe ("Login to the standard user.", () => {
 
     it("Login process.", async () => {
         const { username, password } = credential.standardUser;
-        await loginProcess(username, password);
+        await login.loginProcess(username, password);
     });
 
     it("Log out process.", async () => {
