@@ -1,4 +1,4 @@
-import login from "../pageobjects/login";
+import { loginProcess, logoutProcess } from "./functionsReusables";
 //const helper = require("./helper");
 const credential = require("../credentials");
 
@@ -11,8 +11,10 @@ describe ("Login to the standard user.", () => {
 
     it("Login process.", async () => {
         const { username, password } = credential.standardUser;
-        await login.fillFields(username, password);
-        await login.loginBtnClick();
-        await expect(browser).toHaveUrlContaining("inventory");
+        await loginProcess(username, password);
+    });
+
+    it("Log out process.", async () => {
+        await logoutProcess();
     });
 })

@@ -26,7 +26,12 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './tests/specs/helper.js'
+        './tests/specs/helper.js',
+        './tests/specs/functionsReusables.js'/*,
+        './tests/specs/logInLogOute2eGlitch.js',
+        './tests/specs/logInLogOute2eLocked.js',
+        './tests/specs/logInLogOute2eProblem.js',
+        './tests/specs/logInLogOute2eStandard.js'*/
     ],
     //
     // ============
