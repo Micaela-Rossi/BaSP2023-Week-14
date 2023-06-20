@@ -3,7 +3,7 @@ import { inventory } from "../pageobjects/inventory";
 import cart from "../pageobjects/cart";
 import checkout from "../pageobjects/checkout";
 import login from "../pageobjects/login";
-const credential = require("../credentials");
+const credential = require("../../credentials");
 
 describe ("Complete flow for a purchase for problem user.", () => {
     beforeAll("Open Browser", async () => {
