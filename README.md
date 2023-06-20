@@ -23,7 +23,7 @@ To install this repository
 ### Deployment
 
 Open Visual Studio Code to see the files content.
-Download the credentials file provided in drive folder, and paste it inside of week-14 folder.
+Download the credentials file provided in drive folder, and paste it inside of the main folder of the repo.
 Open console and use the command
 ```
     'npx wdio'.
