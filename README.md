@@ -1,4 +1,4 @@
-# BaSP 2023 - MegaRocket - QA - Automation Test
+# BaSP 2023  - QA - Automation Test
 
 ## Week-14.
 ## WebdriverIO - Jasmine.
@@ -15,7 +15,7 @@ To install this repository
 <br>
 
 ``` bash
-    Git clone []
+    Git clone [https://github.com/Micaela-Rossi/Week-14.git]
     Open terminal in the project folder, recomended git bash,
     Command 'npm install' to install all the dependencies of the package.json file.
 ```
@@ -23,7 +23,10 @@ To install this repository
 ### Deployment
 
 Open Visual Studio Code to see the files content.
-Open console and use the command 'npx wdio'.
+Open console and use the command
+```
+    'npx wdio'.
+```
 #### This automatized test was developed by:
 
 |Photo | Name  | Mail | Github

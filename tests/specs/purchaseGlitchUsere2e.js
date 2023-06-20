@@ -5,7 +5,7 @@ import checkout from "../pageobjects/checkout";
 import login from "../pageobjects/login";
 const credential = require("../../credentials");
 
-describe ("Complete flow for a purchase for standard user.", () => {
+describe ("Complete flow for a purchase for glitched user.", () => {
     beforeAll("Open Browser", async () => {
         browser.setWindowSize(1440, 1024);
         browser.url("https://www.saucedemo.com/")
