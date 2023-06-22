@@ -28,13 +28,13 @@ exports.config = {
     exclude: [
         './tests/specs/helper.js',
         './tests/specs/functionsReusables.js',
-        './tests/specs/logInLogOute2eGlitch.js',
-        './tests/specs/logInLogOute2eLocked.js',
-        './tests/specs/logInLogOute2eProblem.js',
-        './tests/specs/logInLogOute2eStandard.js',
+        //'./tests/specs/logInLogOute2eGlitch.js',
+        //'./tests/specs/logInLogOute2eLocked.js',
+        //'./tests/specs/logInLogOute2eProblem.js',
+        //'./tests/specs/logInLogOute2eStandard.js',
         //'./tests/specs/purchaseStandardUsere2e.js',
-        './tests/specs/purchaseProblemUsere2e.js',
-        './tests/specs/purchaseGlitchUsere2e.js'
+        //'./tests/specs/purchaseProblemUsere2e.js',
+        //'./tests/specs/purchaseGlitchUsere2e.js'
     ],
     //
     // ============
