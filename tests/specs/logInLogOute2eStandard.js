@@ -1,7 +1,7 @@
 import { logoutProcess } from "./functionsReusables";
 //const helper = require("./helper");
 import login from "../pageobjects/login";
-const credential = require("../credentials");
+const credential = require("../../credentials");
 
 describe ("Login to the standard user.", () => {
     beforeAll("Open Browser", () => {

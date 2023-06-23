@@ -1,6 +1,6 @@
 import login from "../pageobjects/login";
 // const helper = require("../helper");
-const credential = require("../credentials");
+const credential = require("../../credentials");
 
 describe ("Login to the locked user.", () => {
     beforeAll("Open Browser", () => {
